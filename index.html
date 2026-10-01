@@ -24,7 +24,7 @@
             
             <div class="input-section">
                 <div class="input-wrapper">
-                    <input type="text" id="qr-input" placeholder="Enter text or URL here..." autocomplete="off">
+                    <input type="text" id="qr-input" aria-label="Text or URL to encode" placeholder="Enter text or URL here..." autocomplete="off">
                 </div>
                 
                 <div class="settings-row">
@@ -42,7 +42,7 @@
                         <label>Logo</label>
                         <div class="logo-upload-wrapper">
                             <input type="file" id="logo-input" accept="image/*" hidden>
-                            <button id="add-logo-btn" class="icon-btn" title="Add Logo image">
+                            <button id="add-logo-btn" class="icon-btn" type="button" title="Add Logo image" aria-label="Add logo image">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <line x1="12" y1="5" x2="12" y2="19"></line>
                                     <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -50,7 +50,7 @@
                             </button>
                             <div id="logo-preview" class="hidden">
                                 <img src="" alt="logo preview">
-                                <button id="remove-logo" title="Remove logo">×</button>
+                                <button id="remove-logo" type="button" title="Remove logo" aria-label="Remove logo">×</button>
                             </div>
                         </div>
                     </div>
