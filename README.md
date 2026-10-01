@@ -26,7 +26,7 @@ To run this application locally, simply:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/text-to-qr-code-generator.git
+    git clone https://github.com/lucykamerad/Qr-code-generator-.git
     ```
 2.  **Open the app**:
     Launch `index.html` in any modern web browser (e.g., Chrome, Firefox, Opera GX).

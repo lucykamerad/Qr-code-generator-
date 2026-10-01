@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     generateBtn.addEventListener('click', generateQR);
 
-    inputField.addEventListener('keypress', (e) => {
+    inputField.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
             generateQR();
         }
@@ -152,5 +152,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
-
